@@ -1,0 +1,11 @@
+.post{
+width: 400px; 
+margin: 20px auto;
+
+}
+
+.post .post-header{
+width: 100px;
+display: flex;
+justify-content: space-between;
+}
