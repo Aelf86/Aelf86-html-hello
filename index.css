@@ -5,7 +5,23 @@ margin: 20px auto;
 }
 
 .post .post-header{
-width: 100px;
-display: flex;
+width: 500px;
+display:flex;
 justify-content: space-between;
+align-items: center;
+}
+
+.post .post-img{
+width: 100px;
+height:auto;
+display:flex;
+}
+
+.post .post-icons-left{
+    justify-content: start;
+ 
+}
+
+.post .post-icons-right{
+    justify-content: end;
 }
