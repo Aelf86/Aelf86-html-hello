@@ -1,33 +1,42 @@
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 .post{
-width: 400px; 
+width: 500px; 
 margin: 20px auto;
 
 }
 
-.post .post-header-container{
-width: 500px;
-display:flex;
-justify-content: space-between;
-align-items: center;
+body {
+  background-color: rgb(255, 255, 255);
 }
 
-.post .post-img-container{
-width: 100px;
-height:auto;
-display:flex;
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.post .post-icons-left{
-justify-content: start;
- 
+.post-header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.post .post-icons-right{
-justify-content: end;
+
+
+.post-img{
+width: 250px;
+height:250px;
+display: flex;
+margin:0px;
+}
+
+.post-icons {
+  display: flex; /* Alinea los hijos (post-icons-left y post-icons-right) en fila */
+  justify-content: space-between; /* Coloca un espacio máximo entre los íconos de la izquierda y el de la derecha */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+}
+
+.post-icons-left {
+  display: flex; /* Alinea los tres íconos (corazón, comentario, avión) en fila */
+  gap: 15px; /* Espacio entre los íconos de la izquierda */
+  padding: 1em;
 }
