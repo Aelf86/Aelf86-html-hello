@@ -1,6 +1,9 @@
 .post{
-width: 500px; 
+width: 350px; 
 margin: 20px auto;
+padding:1em;
+font-family: "Roboto", sans-serif;
+box-sizing: border-box;
 
 }
 
@@ -9,9 +12,12 @@ body {
 }
 
 .post-header {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 10px;
+  
 }
 
 .post-header-left {
@@ -23,20 +29,27 @@ body {
 
 
 .post-img{
-width: 250px;
-height:250px;
+
+height:210px;
 display: flex;
 margin:0px;
+
 }
 
 .post-icons {
   display: flex; /* Alinea los hijos (post-icons-left y post-icons-right) en fila */
   justify-content: space-between; /* Coloca un espacio máximo entre los íconos de la izquierda y el de la derecha */
   align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 5px 10px;
+
 }
 
 .post-icons-left {
   display: flex; /* Alinea los tres íconos (corazón, comentario, avión) en fila */
   gap: 15px; /* Espacio entre los íconos de la izquierda */
   padding: 1em;
+}
+
+p {
+  text-align: justify;
 }
